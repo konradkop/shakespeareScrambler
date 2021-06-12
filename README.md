@@ -1,4 +1,4 @@
-# Shakespeare Scrambler
+# Shakespeare Scrambler using BigQuery
 
 - Note: YOU WILL NEED TO GENERATE AN API KEY FROM GOOGLE! https://cloud.google.com/docs/authentication/getting-started
 
