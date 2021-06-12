@@ -1,9 +1,10 @@
 # Shakespeare Scrambler
 
-- Note: YOU WILL NEED TO GENERATE AN API KEY FROM GOOGLE! CREATE A KEY.JSON FILE WITH ALL THE INFO AND PASTE IT INTO THE MAIN DIRECTORY
-- FOR MORE INFO: https://cloud.google.com/docs/authentication/getting-started
+- Note: YOU WILL NEED TO GENERATE AN API KEY FROM GOOGLE! https://cloud.google.com/docs/authentication/getting-started
 
 ## Description
+
+![Features](src/media/features.gif)
 
 A simple app which will query GCP's public BigQuery Shakespeare Dataset. It will scramble a word from the selected work and allow the user to guess what the word is
 
