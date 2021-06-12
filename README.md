@@ -20,9 +20,9 @@ A simple app which will query GCP's public BigQuery Shakespeare Dataset. It will
 
 ### Installing
 
-- Tested on Windows 10, dont know if it works on Linux/Mac
+- Tested on Windows 10, don't know if it works on Linux/Mac
 - You have to create a "Key.json" file with all your Google Application credentials. The .env file will then read it and use them to access the API
-- For more info on generateing the Credentials (API KEYs): https://cloud.google.com/docs/authentication/getting-started
+- For more info on generating the Credentials (API KEYs): https://cloud.google.com/docs/authentication/getting-started
 
 ### Executing program
 
