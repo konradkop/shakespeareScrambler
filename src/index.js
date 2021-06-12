@@ -2,16 +2,33 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { ChakraProvider } from "@chakra-ui/react"
+import { Flex, ScaleFade} from "@chakra-ui/react"
+import shake from './media/shake.png'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider>
+        <Flex
+        h = "100vh"
+        w = "100vw"
+        backgroundImage ={shake}
+        backgroundSize="120vh"
+        backgroundPosition="right"
+        backgroundRepeat="no-repeat"
+        backgroundColor="#f6f6f6"
+        direction="column"
+        align="left"
+        >
+        <ScaleFade initialScale={0.2} in={true}>
+          <Flex 
+            marginTop="1vh">
+               <App />
+           </Flex>
+        </ScaleFade>
+      </Flex>
+    </ChakraProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
